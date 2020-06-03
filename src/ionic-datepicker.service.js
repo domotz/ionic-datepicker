@@ -1,6 +1,5 @@
-angular.module('ionic-datepicker.service', [])
-
-  .service('IonicDatepickerService', function () {
+export default angular.module('ionic-datepicker.service', [])
+.service('IonicDatepickerService', function () {
 
     this.monthsList = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -18,4 +17,5 @@ angular.module('ionic-datepicker.service', [])
 
       return yearsList;
     };
-  });
+  })
+.name;

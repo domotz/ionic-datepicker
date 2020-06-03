@@ -1,6 +1,10 @@
-angular.module('ionic-datepicker', [
+import provider from './ionic-datepicker.provider'
+import service from './ionic-datepicker.service';
+
+export default angular.module('ionic-datepicker', [
   'ionic',
-  'ionic-datepicker.service',
-  'ionic-datepicker.provider',
+  service,
+  provider,
   'ionic-datepicker.templates'
-]);
+])
+.name;
