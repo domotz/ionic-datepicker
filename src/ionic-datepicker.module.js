@@ -5,6 +5,5 @@ export default angular.module('ionic-datepicker', [
   'ionic',
   service,
   provider,
-  'ionic-datepicker.templates'
 ])
 .name;
